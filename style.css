@@ -12,8 +12,15 @@ body{
 .post{
 	background-color: #FFFFFF;
 	height: 100px;
-	border-top: solid 1px #D2D9E7;
-	border-radius: 5px 0px 0px 0px;
+	border-top: solid 2px #D2D9E7;
+	border-radius: 5px 5px 0px 0px;
+}
+.posterInfo{
+	display: flex;
+	align-items: center;
+}
+.columnWrapper{
+	flex-direction: column;
 }
 .actions{
 	background-color: #EDEFF4;
@@ -46,4 +53,6 @@ body{
 .postInfo{
 	background-color: #FFFFFF;
 	height: 30px;
+	border-bottom: solid 2px #D2D9E7;
+	border-radius: 0px 0px 5px 5px;
 }
