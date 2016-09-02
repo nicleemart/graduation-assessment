@@ -28,9 +28,12 @@ a{
 	display: flex;
 	align-items: center;
 }
+.postTime{
+	display: flex;
+	align-items: center;
+}
 .columnWrapper{
 	flex-direction: column;
-	justify-content: space-around;
 }
 .box{
 	float: right;
@@ -67,6 +70,8 @@ a{
 .comment__actions{
 	font-size: 10px;
 	color: #808080;
+	display: flex;
+	align-items: center;
 }
 .commentInput{
 	background-color: #EDEFF4;
