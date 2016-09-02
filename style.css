@@ -1,0 +1,13 @@
+.container{
+	background-color: #E7EBF2;
+	height: 350px;
+	width: 565px;
+	-moz-box-shadow: 5px 0 8px #000000;
+	-webkit-box-shadow: 5px 0 8px #000000;
+	box-shadow: 5px 0 8px #000000;
+}
+.post{
+	border-top: solid 1px #D2D9E7;
+	background-color: #FFFFFF;
+	height: 75px;
+}
