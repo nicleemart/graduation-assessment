@@ -16,7 +16,7 @@ a{
 .post{
 	background-color: #FFFFFF;
 	height: 90px;
-	border-top: solid 2px #D2D9E7;
+	border-top: solid 2px #c1cbde;
 	border-radius: 5px 5px 0px 0px;
 	padding: 15px;
 	padding-top: 10px;
@@ -74,10 +74,23 @@ a{
 	border-left: solid 3px #FFFFFF;
 	border-right: solid 3px #FFFFFF;
 	border-bottom: solid 2px #FFFFFF;
+	display: flex;
+	align-items: center;
+}
+.commentInput__field{
+	width: 500px;
+	height: 15px;
+	font-family: 'Roboto', sans-serif;
+	border: solid 2px #c1cbde;
+	outline: 0;
+}
+::-webkit-input-placeholder{
+	color: #808080;
+	font-size: 9px;
 }
 .postInfo{
 	background-color: #FFFFFF;
 	height: 30px;
-	border-bottom: solid 2px #D2D9E7;
+	border-bottom: solid 2px #c1cbde;
 	border-radius: 0px 0px 5px 5px;
 }
