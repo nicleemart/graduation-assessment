@@ -1,6 +1,10 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+a{
+	color: #3F5195;
+	text-decoration: none;
+}
 .container{
 	background-color: #E7EBF2;
 	height: 350px;
@@ -14,6 +18,10 @@ body{
 	height: 100px;
 	border-top: solid 2px #D2D9E7;
 	border-radius: 5px 5px 0px 0px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 .posterInfo{
 	display: flex;
@@ -21,6 +29,12 @@ body{
 }
 .columnWrapper{
 	flex-direction: column;
+}
+.box{
+	float: right;
+}
+.line{
+	border: solid 1px #c7c7c7;
 }
 .actions{
 	background-color: #EDEFF4;
@@ -42,6 +56,15 @@ body{
 	border-left: solid 3px #FFFFFF;
 	border-right: solid 3px #FFFFFF;
 	border-bottom: solid 2px #FFFFFF;
+	display: flex;
+	align-items: center;
+}
+.comment__name{
+	font-size: 10px;
+}
+.comment__actions{
+	font-size: 10px;
+	color: #A1A1A1;
 }
 .commentInput{
 	background-color: #EDEFF4;
