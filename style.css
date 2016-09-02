@@ -15,10 +15,11 @@ a{
 }
 .post{
 	background-color: #FFFFFF;
-	height: 100px;
+	height: 90px;
 	border-top: solid 2px #D2D9E7;
 	border-radius: 5px 5px 0px 0px;
 	padding: 15px;
+	padding-top: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -29,6 +30,7 @@ a{
 }
 .columnWrapper{
 	flex-direction: column;
+	justify-content: space-around;
 }
 .box{
 	float: right;
@@ -64,7 +66,7 @@ a{
 }
 .comment__actions{
 	font-size: 10px;
-	color: #A1A1A1;
+	color: #808080;
 }
 .commentInput{
 	background-color: #EDEFF4;
