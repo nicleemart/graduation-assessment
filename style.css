@@ -29,6 +29,10 @@ a{
 }
 .posterInfo{
 	display: flex;
+	justify-content: space-between;
+	}
+.banana{
+	display: flex;
 	align-items: center;
 }
 .postTime{
@@ -39,12 +43,7 @@ a{
 	display: flex;
 	flex-direction: column;
 }
-.topRow{
-	width: 480px;
-	display: flex;
-	justify-content: space-between;
-}
-.topRow__arrow{
+.arrow{
 	-moz-box-shadow: 0 2px 2px -1px #BBBBBB;
 	-webkit-box-shadow: 0 2px 2px -1px #BBBBBB;
 	box-shadow: 0 2px 2px -1px #BBBBBB;
