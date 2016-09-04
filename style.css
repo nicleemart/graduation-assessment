@@ -12,12 +12,15 @@ a{
 	-moz-box-shadow: 4px 4px 15px #616161;
 	-webkit-box-shadow: 4px 4px 15px #616161;
 	box-shadow: 4px 5px 15px #6b6b6b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .post{
 	background-color: #FFFFFF;
-	height: 90px;
+	height: 95px;
 	border-top: solid 2px #c1cbde;
-	border-radius: 5px 5px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
 	padding: 15px;
 	padding-top: 10px;
 	display: flex;
@@ -39,21 +42,23 @@ a{
 	float: right;
 }
 .line{
-	border: solid 1px #c7c7c7;
+	border: solid 1px #EEEEEE;
 }
 .actions{
 	background-color: #EDEFF4;
-	height: 20px;
+	height: 25px;
 	border-left: solid 3px #FFFFFF;
 	border-right: solid 3px #FFFFFF;
 	border-bottom: solid 2px #FFFFFF;
 }
 .likes{
 	background-color: #EDEFF4;
-	height: 20px;
+	height: 22px;
 	border-left: solid 3px #FFFFFF;
 	border-right: solid 3px #FFFFFF;
 	border-bottom: solid 2px #FFFFFF;
+	display: flex;
+	align-items: center;
 }
 .comment{
 	background-color: #EDEFF4;
@@ -95,7 +100,10 @@ a{
 }
 .postInfo{
 	background-color: #FFFFFF;
-	height: 30px;
+	height: 28px;
 	border-bottom: solid 2px #c1cbde;
-	border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 3px 3px;
+}
+.name{
+	font-weight: 900;
 }
