@@ -21,8 +21,9 @@ a{
 	height: 95px;
 	border-top: solid 2px #c1cbde;
 	border-radius: 3px 3px 0px 0px;
-	padding: 15px;
+	padding: 20px;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -47,10 +48,7 @@ a{
 	color: #808080;
 }
 .arrow{
-	-moz-box-shadow: 0 2px 2px -1px #BBBBBB;
-	-webkit-box-shadow: 0 2px 2px -1px #BBBBBB;
-	box-shadow: 0 2px 2px -1px #BBBBBB;
-	border: solid 2px #E3E3E3;
+	border: solid 1px #E3E3E3;
 	width: 17px;
 	height: 17px;
 	display: flex;
