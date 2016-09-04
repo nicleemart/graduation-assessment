@@ -133,7 +133,8 @@ a{
 	height: 30px;
 	width: 30px;
 }
-.bullet{
+.bullet:after{
 	font-size: 9px;
 	color: #808080;
+	content: "\2022";
 }
