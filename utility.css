@@ -1,18 +1,21 @@
-.font-small{
+.font-small {
 	font-size: 10px;
 }
-.font-grey{
+.font-grey {
 	color: #808080;
 }
-.left-indent{
+.left-indent {
 	padding-left: 10px;
 }
-.left-indent-sm{
+.left-indent-sm {
 	margin-left: 7px;
 }
-.space{
+.space {
 	margin-right: 3px;
+	/*Space gives equal spacing to elements throughout the document. Instead of using flex, items
+	need to have the same amount of spacing even if lengths/widths are different. Even though it
+	was tedious to add the space class every time I needed it, this allows for a more dynamic approach.*/
 }
-.right-indent{
+.right-indent {
 	margin-right: 10px;
 }
