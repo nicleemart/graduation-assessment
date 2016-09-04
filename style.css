@@ -62,20 +62,23 @@ a{
 	align-items: center;
 	justify-content: center;
 }
-.arrow-down{
-  width: 0; 
-  height: 0; 
+.arrow--invisible{
+	border: solid 1px #FFFFFF;
+}
+.arrow__down{
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid #BBBBBB;
 }
-.arrow-down--blue{
-  width: 0; 
-  height: 0; 
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-top: 4px solid #3F5195;
+.blueArrow{
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #6B80AF;
+  margin-top: 9px;
   float: right;
+}
+.postText{
+	font-size: 12px;
 }
 .line{
 	border: solid 1px #EEEEEE;
