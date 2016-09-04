@@ -1,5 +1,5 @@
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 }
 a{
 	color: #3F5195;
@@ -122,7 +122,7 @@ a{
 .commentInput__field{
 	width: 500px;
 	height: 15px;
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 	font-size: 10px;
 	border: solid 2px #c1cbde;
 	outline: 0;
