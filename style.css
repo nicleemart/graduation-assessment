@@ -36,10 +36,32 @@ a{
 	align-items: center;
 }
 .columnWrapper{
+	display: flex;
 	flex-direction: column;
 }
-.box{
-	float: right;
+.topRow{
+	width: 480px;
+	display: flex;
+	justify-content: space-between;
+}
+.topRow__arrow{
+	-moz-box-shadow: 0 2px 2px -1px #BBBBBB;
+	-webkit-box-shadow: 0 2px 2px -1px #BBBBBB;
+	box-shadow: 0 2px 2px -1px #BBBBBB;
+	border: solid 1px #E3E3E3;
+	width: 17px;
+	height: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.arrow-down{
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #BBBBBB;
+  float: right;
 }
 .line{
 	border: solid 1px #EEEEEE;
@@ -50,6 +72,8 @@ a{
 	border-left: solid 3px #FFFFFF;
 	border-right: solid 3px #FFFFFF;
 	border-bottom: solid 2px #FFFFFF;
+	display: flex;
+	align-items: center;
 }
 .likes{
 	background-color: #EDEFF4;
@@ -75,15 +99,6 @@ a{
 .comment__actions{
 	font-size: 10px;
 	color: #808080;
-	display: flex;
-	align-items: center;
-}
-.commentInput{
-	background-color: #EDEFF4;
-	height: 40px;
-	border-left: solid 3px #FFFFFF;
-	border-right: solid 3px #FFFFFF;
-	border-bottom: solid 2px #FFFFFF;
 	display: flex;
 	align-items: center;
 }
